@@ -1,1 +1,1 @@
-https://lalamalala.github.io/rsschool-cv/
+# rsschool-cv
