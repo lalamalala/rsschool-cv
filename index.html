@@ -1,11 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    Hello world
+
+    <header class="header-style">
+        <div class="container">
+
+            <nav class="nav-style">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main class="main-style">
+        <div class="container">
+
+            <section class="section-profile-style" id="profile">
+                <img src="./img/foto.JPG" alt="my photo" class="profile-img">
+
+                <div class="section-profile-title">
+                    <h1>Anna Osipova</h1>
+                    <p> <span style="font-style: italic;">Tester Engineer</span> </p>
+                </div>
+            </section>
+
+            <section class="section-style" id="contacts">
+                <h2>Contacts:</h2>
+                <ul>
+                    <li>Mobile: +375(25) 522 39 88</li>
+                    <li>Email: anna.osipova.vl@gmail.com</li>
+                </ul>
+            </section>
+
+            <section class="section-style" id="summary">
+                <h2 id="summary">About me: </h2>
+                <p>I am a performance tester and manual tester. 4+ years of experience in IT, oriented on high quality
+                    of product and result overall. I always try to learn new things and develop.</p>
+            </section>
+
+            <section class="section-style" id="skills">
+                <h2>Experience in:</h2>
+                <ul>
+                    <li>server-side and client-side performance testing (Jmeter, Postman, Grafana, Kibana, Zabbix,
+                        Prometheus, Chrome dev tools, Lighthouse).</li>
+                    <li>performance testing methodologies, test documentation (Performance Test Plan/Test Strategy/Test
+                        Report).</li>
+                    <li>manual testing, testing methodologies, test documentation (Test Case/Check-List/Test Plan/Bug
+                        Report/Test Report).</li>
+                    <li>testing Web-based and Mobile applications. Functional and non-functional requirements analysis.
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section-style" id="code">
+                <h2>Code Examples:</h2>
+                <div class="section-style section-code">
+                    <code>
+                        @keyframes color-change {<br> 
+                        0% {color: black;} <br> 
+                        50% {color: white;} <br> 
+                        100% {color: black;} } <br> 
+                        .black-white {animation: color-change 3s infinite;} <br>  
+                    </code>
+                </div>
+            </section>
+
+            <section id="projects" class="section-style">
+                <h2>Projects:</h2>
+                <ul>
+                    <li><a href="https://github.com/lalamalala/rsschool-cv">rsschool-cv</a></li>
+                </ul>
+            </section>
+
+            <section class="section-style" id="education">
+                <h2>Education:</h2>
+                <p>Belarusian State University, Minsk, 2013 - Faculty of Mechanics and Mathematics</p>
+            </section>
+
+            <section class="section-style" id="language">
+                <h2>Languages: </h2>
+                <ul>
+                    <li>Russian - native speaker.</li>
+                    <li>English - B1+.</li>
+                    <li>Polish: Novice.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer-style">
+        <div class="container">
+            <section class="section-footer-style" >
+                <a href="https://rs.school/js/">
+                <img src="./img/rs_school_js.svg" alt="rs_school_js_logo" class="rs_school_js_logo"> </a>
+
+                <div class="footer-text">&#169 2023
+                    <a href="https://github.com/lalamalala/rsschool-cv" >lalamalala</a>
+                </div>
+            </section>
+
+
+        </div>
+    </footer>
+
 </body>
 </html>
