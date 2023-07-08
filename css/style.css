@@ -1,0 +1,152 @@
+/* Common style */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 400px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #170275;
+}
+
+a {
+    color: #170275;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #024481;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+/* Menu */
+
+.header-style {
+    background-color: #5cb9f7;
+}
+
+.nav-style {
+    background-color: #5cb9f7;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    transition: .3s;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+
+/* Content*/
+.main-style {
+    background-color: #a6d7f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-style {
+    padding: 1px 20px;
+}
+
+.section-profile-style {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.section-style.section-code {
+    width: 50%;
+    background-color: #c4dcec;
+}
+
+@media (max-width: 768px) {
+    .section-style {
+        width: 100%;
+    }
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+    margin: 10px;
+}
+
+/*Footer*/
+.footer-style {
+    background-color: #5cb9f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-footer-style {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5px;
+}
+
+.rs_school_js_logo {
+    width: 121px;
+    height: 45px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20px;
+}
